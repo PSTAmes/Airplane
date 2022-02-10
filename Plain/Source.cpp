@@ -64,7 +64,7 @@ void output(int x, int y, char* string, void* font) {
 void initTexture() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/Building.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("Building.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 	if (!image) {
@@ -100,7 +100,7 @@ void initTexture() {
 void initTextureTire() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/tire.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("tire.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 	if (!image) {
@@ -136,7 +136,7 @@ void initTextureTire() {
 void initTextureCloud() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/cloud.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("cloud.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 	if (!image) {
@@ -173,7 +173,7 @@ void initTextureCloud() {
 void initTextureroad() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/bg.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("bg.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 	if (!image) {
@@ -210,7 +210,7 @@ void initTextureroad() {
 void initTextureGrass() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/bg.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("bg.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 
@@ -248,7 +248,7 @@ void initTextureGrass() {
 void initTexturePlain() {
 
 	int width, height;
-	unsigned char* image = SOIL_load_image("D:/UOP/YR 3/SEMESTER II/CS308 - COMPUTER GRAPHICS PROGRAMMING/Project/temp/Plain/Plain/body.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+	unsigned char* image = SOIL_load_image("body.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
 
 	if (!image) {
